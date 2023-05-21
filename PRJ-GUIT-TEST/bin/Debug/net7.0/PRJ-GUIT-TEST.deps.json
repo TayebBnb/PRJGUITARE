@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "PRJ-GUIT-TEST/1.0.0": {
+        "dependencies": {
+          "LIB_LUTHIER_TEST": "1.0.0"
+        },
+        "runtime": {
+          "PRJ-GUIT-TEST.dll": {}
+        }
+      },
+      "LIB_LUTHIER_TEST/1.0.0": {
+        "runtime": {
+          "LIB_LUTHIER_TEST.dll": {}
+        }
+      },
+      "Dapper/2.0.0.0": {
+        "runtime": {
+          "Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.123.33578"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PRJ-GUIT-TEST/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LIB_LUTHIER_TEST/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapper/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

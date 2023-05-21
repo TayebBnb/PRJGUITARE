@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BDD_GUITARENT", "BDD_GUITARENT\BDD_GUITARENT.sqlproj", "{98526FD7-3EDC-4BD1-B94E-C72C16FBFD15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUITARE_API", "GUITARE_API\GUITARE_API.csproj", "{13B93A02-4D88-42B7-A5BC-654A81645D2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LIB_LUTHIER_CORE", "LIB_LUTHIER_CORE\LIB_LUTHIER_CORE.csproj", "{12F5D033-A73F-42C3-B306-183C8270E435}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TEST_COMMANDES", "TEST_COMMANDES\TEST_COMMANDES.csproj", "{7FFB83E6-0955-44B1-BBE4-1DCBFA6246E7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{12F5D033-A73F-42C3-B306-183C8270E435} = {12F5D033-A73F-42C3-B306-183C8270E435}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LUTHIER_IHM", "LUTHIER_IHM\LUTHIER_IHM.csproj", "{E97D9B2E-845B-4536-AF68-1AD9212A7CAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98526FD7-3EDC-4BD1-B94E-C72C16FBFD15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98526FD7-3EDC-4BD1-B94E-C72C16FBFD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98526FD7-3EDC-4BD1-B94E-C72C16FBFD15}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{98526FD7-3EDC-4BD1-B94E-C72C16FBFD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98526FD7-3EDC-4BD1-B94E-C72C16FBFD15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98526FD7-3EDC-4BD1-B94E-C72C16FBFD15}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{13B93A02-4D88-42B7-A5BC-654A81645D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B93A02-4D88-42B7-A5BC-654A81645D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B93A02-4D88-42B7-A5BC-654A81645D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B93A02-4D88-42B7-A5BC-654A81645D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F5D033-A73F-42C3-B306-183C8270E435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F5D033-A73F-42C3-B306-183C8270E435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F5D033-A73F-42C3-B306-183C8270E435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F5D033-A73F-42C3-B306-183C8270E435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FFB83E6-0955-44B1-BBE4-1DCBFA6246E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FFB83E6-0955-44B1-BBE4-1DCBFA6246E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FFB83E6-0955-44B1-BBE4-1DCBFA6246E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FFB83E6-0955-44B1-BBE4-1DCBFA6246E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97D9B2E-845B-4536-AF68-1AD9212A7CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97D9B2E-845B-4536-AF68-1AD9212A7CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97D9B2E-845B-4536-AF68-1AD9212A7CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97D9B2E-845B-4536-AF68-1AD9212A7CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24CA3C3E-C450-42C1-9371-C730A171B5D0}
+	EndGlobalSection
+EndGlobal
